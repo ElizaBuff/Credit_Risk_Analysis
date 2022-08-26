@@ -25,34 +25,38 @@ Fast Lending, a peer to peer lending services wants to use machine learning to p
 
 ---
 ## Results
+There is a class imbalance between high and low risk credit loans. Since there are 347 high risk loans and 68,470 low risk loans, they will be labeled minority class and majority class respectively.  
+
 <ins>Algorithm 1: RandomOversampler</ins>
-
-* Accuracy: 64%
-* Precision: 
-* High Risk: Low Risk 
-* Recall: 
+Accuracy: 64%
+Precision 
+* High Risk (Minority Class): 1%
+* Low Risk (Majority Class): 100%
+Recall
+* High Risk (Minority Class): 61% 
+* Low Risk (Majority Class): 66%
  
- Algorithm 1: RandomOversampler
+<ins>Algorithm 1: RandomOversampler</ins>
 * Accuracy: 
 * Precision 
 * Recall: 
 
-Algorithm 1: RandomOversampler
+<ins>Algorithm 1: RandomOversampler</ins>
 * Accuracy: 
 * Precision 
 * Recall: 
 
-Algorithm 1: RandomOversampler
+<ins>Algorithm 1: RandomOversampler</ins>
 * Accuracy: 
 * Precision 
 * Recall: 
 
-Algorithm 1: RandomOversampler
+<ins>Algorithm 1: RandomOversampler</ins>
 * Accuracy: 
 * Precision 
 * Recall: 
 
-Algorithm 1: RandomOversampler
+<ins>Algorithm 1: RandomOversampler</ins>
 * Accuracy: 
 * Precision 
 * Recall: 
@@ -68,10 +72,4 @@ June is a warmer month than December in O’ahu; however, the temperate differen
 Two additional weather factors to consider are wind speed and amount of sunlight for June and December. 
 * Since wind speed is an important element to surfing vis-à-vi waves, wind speed data may indicate if either month is more, less, or equally lucrative.  Do wind speeds vary from June to December in O’ahu?
 * Sunlight is likely to bring in more customers for both surfing and ice cream. How do the number of sunny days, partly sunny days, and total days with sun vary from June to December in O’ahu?
-
-
-
-
-
-
 
