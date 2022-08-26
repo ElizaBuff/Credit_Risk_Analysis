@@ -29,7 +29,7 @@ There is a class imbalance between high and low risk credit loans. Since there a
 
 <ins>Algorithm 1: RandomOversampler</ins>
 
-Accuracy: 64%
+Accuracy: 63.5%
 
 Precision 
 
@@ -41,34 +41,80 @@ Recall
 * High Risk (Minority Class): 61% 
 * Low Risk (Majority Class): 66%
  
-<ins>Algorithm 1: RandomOversampler</ins>
-* Accuracy: 
-* Precision 
-* Recall: 
+<ins>Algorithm 2: SMOTE</ins>
 
-<ins>Algorithm 1: RandomOversampler</ins>
-* Accuracy: 
-* Precision 
-* Recall: 
+Accuracy: 63.7%
 
-<ins>Algorithm 1: RandomOversampler</ins>
-* Accuracy: 
-* Precision 
-* Recall: 
+Precision 
 
-<ins>Algorithm 1: RandomOversampler</ins>
-* Accuracy: 
-* Precision 
-* Recall: 
+* High Risk (Minority Class): 1%
+* Low Risk (Majority Class): 100%
 
-<ins>Algorithm 1: RandomOversampler</ins>
-* Accuracy: 
-* Precision 
-* Recall: 
-The tables below compare the recorded temperatures in June and December respectively. 
+Recall
 
+* High Risk (Minority Class): 62% 
+* Low Risk (Majority Class): 65%
+ 
 
-![temps_tables](temps_tables.png) 
+<ins>Algorithm 3: ClusterCentroids</ins>
+
+Accuracy: 52.9%
+
+Precision 
+
+* High Risk (Minority Class): 1%
+* Low Risk (Majority Class): 100%
+
+Recall
+
+* High Risk (Minority Class): 61% 
+* Low Risk (Majority Class): 45%
+ 
+
+<ins>Algorithm 4: SMOTEENN</ins>
+
+Accuracy: 63.8%
+
+Precision 
+
+* High Risk (Minority Class): 1%
+* Low Risk (Majority Class): 100%
+
+Recall
+
+* High Risk (Minority Class): 70% 
+* Low Risk (Majority Class): 57%
+ 
+
+<ins>Algorithm 5: BalancedRandomForestClassifier</ins>
+
+Accuracy: 77.8%
+
+Precision 
+
+* High Risk (Minority Class): 3%
+* Low Risk (Majority Class): 100%
+
+Recall
+
+* High Risk (Minority Class): 67% 
+* Low Risk (Majority Class): 89%
+ 
+
+<ins>Algorithm 6: EasyEnsembleClassifier</ins>
+
+Accuracy: 92.5%
+
+Precision 
+
+* High Risk (Minority Class): 7%
+* Low Risk (Majority Class): 100%
+
+Recall
+
+* High Risk (Minority Class): 91% 
+* Low Risk (Majority Class): 94%
+ 
 
 ---
 ## Summary 
