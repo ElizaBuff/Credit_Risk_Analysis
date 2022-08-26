@@ -30,9 +30,12 @@ There is a class imbalance between high and low risk credit loans. Since there a
 <ins>Algorithm 1: RandomOversampler</ins>
 Accuracy: 64%
 Precision 
+
 * High Risk (Minority Class): 1%
 * Low Risk (Majority Class): 100%
+
 Recall
+
 * High Risk (Minority Class): 61% 
 * Low Risk (Majority Class): 66%
  
