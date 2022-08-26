@@ -25,10 +25,37 @@ Fast Lending, a peer to peer lending services wants to use machine learning to p
 
 ---
 ## Results
-* June’s average temperature is 4 degrees warmer than December. June has an average temperature of 75 degrees while December averages 71 degrees. 
-* Temperatures below 64 degrees and above 81 degrees in either month are rare. 95% of the temperatures in June fall between 68 degree and 81 and 95% of the temperatures in December fall between 64 degree and 79 degrees. 
-* Although December has a low of 56 degrees in December compared to a low of 64 degrees in June, 56 degrees is so unusual (falls outside of 99.7% of the temperatures recorded in December) that it should not be a factor.  
+<ins>Algorithm 1: RandomOversampler</ins>
+
+* Accuracy: 64%
+* Precision: 
+* High Risk: Low Risk 
+* Recall: 
  
+ Algorithm 1: RandomOversampler
+* Accuracy: 
+* Precision 
+* Recall: 
+
+Algorithm 1: RandomOversampler
+* Accuracy: 
+* Precision 
+* Recall: 
+
+Algorithm 1: RandomOversampler
+* Accuracy: 
+* Precision 
+* Recall: 
+
+Algorithm 1: RandomOversampler
+* Accuracy: 
+* Precision 
+* Recall: 
+
+Algorithm 1: RandomOversampler
+* Accuracy: 
+* Precision 
+* Recall: 
 The tables below compare the recorded temperatures in June and December respectively. 
 
 
