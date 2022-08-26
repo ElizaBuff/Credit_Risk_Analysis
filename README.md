@@ -28,7 +28,9 @@ Fast Lending, a peer to peer lending services wants to use machine learning to p
 There is a class imbalance between high and low risk credit loans. Since there are 347 high risk loans and 68,470 low risk loans, they will be labeled minority class and majority class respectively.  
 
 <ins>Algorithm 1: RandomOversampler</ins>
+
 Accuracy: 64%
+
 Precision 
 
 * High Risk (Minority Class): 1%
